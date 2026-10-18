@@ -58,6 +58,13 @@
   .paar { text-align: left; max-width: 760px; margin: 22px auto 0; }
   .paar .karte h3 { color: var(--gold); }
   .paar-fuss { color: var(--grau); font-size: 15px; margin: 12px auto 0; }
+  .zielgruppen { grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); }
+  .zielgruppen .karte h3 { color: var(--gold); }
+  .zielgruppen .wer { color: var(--grau); font-size: 14px; margin: 0 0 10px; }
+  .zielgruppen ul.haken li { font-size: 15px; line-height: 1.5; margin: 6px 0; }
+  .download { text-align: center; margin-top: 22px; }
+  .download .knopf { margin-top: 0; }
+  .download small { display: block; color: var(--grau); font-size: 13px; margin-top: 10px; }
   footer { padding: 40px 0 26px; text-align: center; font-size: 13px; color: var(--grau); }
   footer a { color: var(--grau); }
 </style>
@@ -65,7 +72,7 @@
 <body>
 <div class="breite">
 <nav aria-label="Inhalt">
-  <a href="#leistungen">AGENTUR</a><a href="#app">APP</a><a href="#foerderung">FINANZIERUNG</a>
+  <a href="#leistungen">AGENTUR</a><a href="#app">APP</a><a href="#kann">FÜR WEN</a><a href="#foerderung">FINANZIERUNG</a>
   <a href="#praxis">PRAXIS</a><a href="#ich">ÜBER MICH</a><a href="#kontakt">KONTAKT</a>
 </nav>
 
@@ -115,6 +122,59 @@
   </div>
   <p class="hinweis">Die Daten bleiben beim Ensemble. Stagedesk ordnet – ihr entscheidet.
     <small>Die KI ist für die Struktur da – Musik, Texte und Ideen bleiben bei den Menschen.</small></p>
+</section>
+
+<section id="kann">
+  <h2>WAS STAGEDESK KANN – FÜR WEN?</h2>
+  <p class="einleitung">Agentur und App im Überblick – je Zielgruppe das, was am meisten entlastet. Aufgeführt ist nur, was die App heute kann.</p>
+  <div class="raster zielgruppen">
+    <div class="karte"><h3>Institutionen</h3><p class="wer">Orchester, Theater, Festivals, Konzerthäuser – als Ergänzung zur vorhandenen Software.</p>
+      <ul class="haken">
+        <li>Sonderprojekte wie Jubiläum, Tournee oder Festival: Organisation, Verträge, Honorare, Abrechnung</li>
+        <li>Verwaltung der Antragstellung und Verwendungsnachweise im Vordruck des Förderers</li>
+        <li>Überbrückung bei Vakanz, Elternzeit oder Krankheit im Betriebsbüro</li>
+        <li>Die App für ein einzelnes Projekt: Honorarverträge, Belege, Förderung mit Soll gegen Ist</li>
+      </ul></div>
+    <div class="karte"><h3>Freie Szene</h3><p class="wer">Freie Ensembles, Projektchöre, Solo-Selbstständige – die Organisation läuft meist nebenher.</p>
+      <ul class="haken">
+        <li>Produktion begleiten: Besetzung und Verträge vorher, Honorare, Belege und Abrechnung danach</li>
+        <li>Förderung von der Recherche bis zum Verwendungsnachweis – die Begleitung gleich im Kostenplan</li>
+        <li>Die App: Vertragspakete je Person, Überweisung per GiroCode, Belege je Kostenposition, KSK-Übersicht</li>
+        <li>Sichtbarkeit: Konzerttermine für die Website, Instagram-Planung, Pressemitteilung je Ort</li>
+      </ul></div>
+    <div class="karte"><h3>Verbände &amp; Vereine</h3><p class="wer">Chöre, Orchester, Musikvereine, Kirchenchöre – und ihre Verbände.</p>
+      <ul class="haken">
+        <li>Mitglieder und Beiträge, SEPA-Lastschriftdatei – freigegeben wird im eigenen Online-Banking</li>
+        <li>Zuwendungsbestätigungen nach amtlichem Muster, Ehrungen und Jubiläen im Blick</li>
+        <li>Für den Verband: Mitgliederdaten übernehmen, Website betreuen, Stufenplan für die Struktur</li>
+        <li>Regionale Workshops, in denen Vorstände die App für ihren Verein einrichten</li>
+      </ul></div>
+    <div class="karte"><h3>Hochschulen / Career Center</h3><p class="wer">Für Studierende: die App und die Einrichtung im Workshop – die Arbeit machen sie selbst.</p>
+      <ul class="haken">
+        <li>Wettbewerbe, Stipendien, Probespiele und Meisterkurse mit Fristen und Unterlagen</li>
+        <li>Ausschreibungen nach eigenem Suchprofil, Termine aus Mails für den eigenen Kalender</li>
+        <li>Vorlagen von der Konzertanfrage bis zur Honorarrechnung</li>
+        <li>Kein Aufwand für die IT der Hochschule, keine zentrale Datenhaltung</li>
+      </ul></div>
+    <div class="karte"><h3>Bildungsakademien</h3><p class="wer">Bundes- und Landesmusikakademien, Akademien der kulturellen Bildung – als Partner fürs Kursprogramm.</p>
+      <ul class="haken">
+        <li>Tageskurse oder Wochenenden für Ensembleleitungen, Vereinsvorstände und Kulturmanager:innen</li>
+        <li>Geübt wird an einem Demo-Verein: eine Produktion von A bis Z, Förderung bis zum Nachweis</li>
+        <li>Ausschreibung, Anmeldung und Raum über die Akademie – Stagedesk liefert Inhalt und Dozent</li>
+      </ul></div>
+    <div class="karte"><h3>Kommunen / Kulturämter</h3><p class="wer">Die Stadt öffnet Türen zur freien Musikszene – ohne Vertrag und ohne eigene Datenverarbeitung.</p>
+      <ul class="haken">
+        <li>Info-Veranstaltung mit Live-Vorführung und Einführungs-Workshop für die Ensembles der Stadt</li>
+        <li>Die Ensembles bekommen alle App-Funktionen der freien Szene, Begleitung durch die Agentur auf Wunsch</li>
+        <li>Nach etwa sechs Monaten ein Erfahrungsbericht zu Abrechnung und Verwendungsnachweis</li>
+      </ul></div>
+  </div>
+  <p class="hinweis">Die Daten bleiben beim Ensemble – auch Verbände, Hochschulen und Städte erhalten keine. Jede Mail ist zuerst ein Entwurf, und die App bewegt kein Geld. Stagedesk ordnet – ihr entscheidet.
+    <small>Die App läuft heute unter Windows. macOS und jedes IMAP-Postfach (z. B. Thunderbird) sind in Vorbereitung und werden im Pilot vor den ersten Workshops geprüft. Workshops ab Sommersemester 2027 – zuerst als Pilot.</small></p>
+  <div class="download">
+    <a class="knopf" href="stagedesk-funktionen-je-zielgruppe.pdf" download>FUNKTIONEN JE ZIELGRUPPE · PDF</a>
+    <small>„Stagedesk – Funktionen je Zielgruppe“ · 4 Seiten · Stand Oktober 2026 · Leistungen ab 1. Januar 2027</small>
+  </div>
 </section>
 
 <section id="foerderung">
