@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stagedesk – Links</title>
+<meta name="description" content="Stagedesk – Agentur + App für Kulturprojekte: Website, Instagram, LinkedIn und Kontakt auf einen Blick.">
+<meta name="robots" content="noindex, follow">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+  :root { --grund: #050b16; --grund2: #0a1428; --karte: rgba(12,26,48,.72); --linie: #16324f; --cyan: #5ad2ff;
+          --hell: #c8f5ff; --gold: #ffc85a; --text: #e6f2fa; --grau: #8fa6ba; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  html { background: #050b16; }
+  body {
+    background: radial-gradient(ellipse 120% 700px at 50% 0%, var(--grund2) 0%, var(--grund) 70%) no-repeat, var(--grund);
+    color: var(--text); font-family: "Segoe UI", system-ui, -apple-system, sans-serif; line-height: 1.5; padding: 0 16px;
+    min-height: 100vh;
+  }
+  body::before {               /* feines Raster wie in den Stagedesk-Bildern */
+    content: ""; position: fixed; inset: 0; pointer-events: none; opacity: .35; z-index: -1;
+    background-image: linear-gradient(#0e1e34 1px, transparent 1px), linear-gradient(90deg, #0e1e34 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+  main { max-width: 420px; margin: 0 auto; padding: 48px 0 32px; text-align: center; }
+  h1 { font-family: "Bahnschrift", "Segoe UI", sans-serif; font-weight: 600; letter-spacing: .06em; font-size: 40px; margin: 0 0 4px;
+       text-shadow: 0 0 22px rgba(90,210,255,.45); }
+  .claim { color: var(--gold); letter-spacing: .1em; font-family: "Bahnschrift", sans-serif; margin: 0 0 6px; }
+  .name { color: var(--grau); margin: 0 0 30px; }
+  a.knopf { display: block; margin: 12px 0; padding: 15px 20px; border: 1px solid var(--cyan); border-radius: 14px;
+            color: var(--hell); text-decoration: none; font-family: "Bahnschrift", sans-serif; letter-spacing: .08em; font-size: 17px;
+            background: var(--karte); box-shadow: 0 0 16px rgba(90,210,255,.18) inset; }
+  a.knopf:hover, a.knopf:focus { background: rgba(90,210,255,.14); }
+  a.knopf small { display: block; color: var(--grau); font-family: "Segoe UI", sans-serif; letter-spacing: 0; font-size: 13px; }
+  footer { color: var(--grau); font-size: 13px; margin-top: 28px; }
+  footer a { color: var(--grau); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Stagedesk</h1>
+  <p class="claim">Agentur + App für Kulturprojekte</p>
+  <p class="name">Michel Rychlinski</p>
+  <a class="knopf" href="https://stagedesk.art/">Website<small>Was Stagedesk anbietet</small></a>
+  <a class="knopf" href="https://www.linkedin.com/company/stagedesk/" rel="noopener">LinkedIn<small>Stagedesk-Seite</small></a>
+  <a class="knopf" href="https://www.instagram.com/stagedesk.art/" rel="noopener">Instagram<small>@stagedesk.art</small></a>
+  <a class="knopf" href="mailto:michel@stagedesk.art">E-Mail<small>michel@stagedesk.art</small></a>
+  <footer>Stagedesk ordnet – ihr entscheidet. · <a href="impressum.html">Impressum</a></footer>
+</main>
+</body>
+</html>
