@@ -1,0 +1,5 @@
+# stagedesk.art – alle Suchmaschinen und KI-Crawler willkommen (19.11.2026, GEO)
+User-agent: *
+Allow: /
+
+Sitemap: https://stagedesk.art/sitemap.xml
