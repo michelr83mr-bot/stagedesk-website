@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Nur indexierbare Seiten: impressum, links und les-lumieres stehen auf noindex und gehoeren nicht in die Sitemap. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://stagedesk.art/</loc><lastmod>2026-11-19</lastmod><priority>1.0</priority></url>
-  <url><loc>https://stagedesk.art/les-lumieres.html</loc><lastmod>2026-11-19</lastmod><priority>0.7</priority></url>
-  <url><loc>https://stagedesk.art/links.html</loc><lastmod>2026-11-19</lastmod><priority>0.5</priority></url>
-  <url><loc>https://stagedesk.art/impressum.html</loc><lastmod>2026-11-19</lastmod><priority>0.2</priority></url>
+  <url><loc>https://stagedesk.art/</loc><lastmod>2026-11-20</lastmod><priority>1.0</priority></url>
+  <url><loc>https://stagedesk.art/stagedesk-funktionen-je-zielgruppe.pdf</loc><lastmod>2026-10-25</lastmod><priority>0.6</priority></url>
 </urlset>
